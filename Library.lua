@@ -44,7 +44,6 @@ function Library:CreateWindow(Config, Parent)
 	local WindowInit = {}
 	local Folder = game:GetObjects("rbxassetid://7141683860")[1]
 	local Screen = Folder.Bracket:Clone()
-	Screen.Name = "totally a game ui i promise"
 	local Main = Screen.Main
 	local Holder = Main.Holder
 	local Topbar = Main.Topbar
@@ -55,7 +54,7 @@ function Library:CreateWindow(Config, Parent)
 		syn.protect_gui(Screen)
 	end
 	
-	Screen.Name =  HttpService:GenerateGUID(false)
+	Screen.Name = "totally a game ui i promise"
 	Screen.Parent = Parent
 	Topbar.WindowName.Text = Config.WindowName
     local Topbar = Main.Topbar
