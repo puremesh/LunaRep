@@ -54,7 +54,7 @@ function Library:CreateWindow(Config, Parent)
 		syn.protect_gui(Screen)
 	end
 	
-	Screen.Name = "totally a game ui i promise"
+	Screen.Name = "just a game gui i promise"
 	Screen.Parent = Parent
 	Topbar.WindowName.Text = Config.WindowName
     local Topbar = Main.Topbar
